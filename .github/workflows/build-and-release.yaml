@@ -31,6 +31,7 @@ jobs:
           - 7.73.0
         node:
           - 12
+          - 14
     env:
       LIBCURL_RELEASE: ${{ matrix.libcurl-release }}
       LATEST_LIBCURL_RELEASE: ${{ matrix.libcurl-release }}
@@ -192,6 +193,7 @@ jobs:
       matrix:
         node:
           - 12
+          - 14
     env:
       npm_config_msvs_version: 2017
       npm_config_build_from_source: true
